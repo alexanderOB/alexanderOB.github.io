@@ -24,7 +24,7 @@ function Page(){
 
 	this.getSect=function(file){
 		var xmlHTTP=new XMLHttpRequest();
-		xmlHTTP.open("GET","testpages/"+file+".html",false);
+		xmlHTTP.open("GET","testPages/"+file+".html",false);
 		xmlHTTP.send();
 		return xmlHTTP.responseText;
 	}
